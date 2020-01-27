@@ -2,8 +2,7 @@ package com.example.weatherapp.Model
 
 class MainInfo {
 
-    lateinit var temp: Integer
+    var temp: Double = 0.0
 
-    lateinit var humidity: Integer
-
+    var humidity: Double = 0.0
 }
